@@ -43,6 +43,5 @@ public class UserDetailsServiceImplTests {
                         .build());
         UserDetails user = userDetailsService.loadUserByUsername("ram");
         Assertions.assertNotNull(user);
-
     }
 }
